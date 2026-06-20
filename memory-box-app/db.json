@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Bhanu",
+      "email": "bhanu@gmail.com",
+      "password": "bhanu@1204"
+    },
+    {
+      "id": "2",
+      "name": "Teja",
+      "email": "teja@gmail.com",
+      "password": "teja@1103"
+    },
+    {
+      "name": "Bhanu",
+      "email": "bhanu@gmail.com",
+      "password": "bhanu@1204",
+      "id": "wQ7pHtwVuAo"
+    }
+  ],
+  "memories": [
+    {
+      "id": "1",
+      "title": "School Farewell Day",
+      "description": "A beautiful farewell party with friends and teachers.",
+      "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80",
+      "date": "2023-04-10",
+      "category": "School",
+      "favorite": true
+    },
+    {
+      "id": "2",
+      "title": "Family Trip to Goa",
+      "description": "Enjoyed beaches, sunset, and amazing seafood.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "date": "2024-01-15",
+      "category": "Travel",
+      "favorite": false
+    },
+    {
+      "id": "3",
+      "title": "College Freshers Day",
+      "description": "First big event in college full of fun performances.",
+      "image": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=800&q=80",
+      "date": "2024-07-20",
+      "category": "College",
+      "favorite": true
+    },
+    {
+      "id": "4",
+      "title": "Best Friend Birthday",
+      "description": "Surprise birthday celebration with friends.",
+      "image": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80",
+      "date": "2023-11-05",
+      "category": "Friends",
+      "favorite": true
+    },
+    {
+      "id": "5",
+      "title": "Summer Vacation Memories",
+      "description": "Spent summer holidays relaxing and learning new skills.",
+      "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
+      "date": "2022-05-30",
+      "category": "Vacation",
+      "favorite": false
+    },
+    {
+      "id": "6",
+      "title": "Diwali Celebration",
+      "description": "Festival of lights with crackers, sweets, and family time.",
+      "image": "https://images.stockcake.com/public/0/4/9/049d73e7-bd4c-4527-94e6-658e017f8d3b_large/diwali-celebration-sparkle-stockcake.jpg",
+      "date": "2023-11-12",
+      "category": "Festival",
+      "favorite": true
+    },
+    {
+      "id": "8",
+      "title": "Rainy Day",
+      "description": "Enjoyed the soothing rain with a cup of tea and beautiful weather.",
+      "image": "https://images.unsplash.com/photo-1501691223387-dd0500403074?auto=format&fit=crop&w=1600&q=80",
+      "date": "2024-08-05",
+      "category": "Weather",
+      "favorite": true
+    }
+  ]
+}
