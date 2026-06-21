@@ -15,28 +15,46 @@ function Register() {
     e.preventDefault();
 
     try {
+      // Check if the email already exists
+      const existingUser = await api.get(
+        `/users?email=${form.email}`
+      );
+
+      if (existingUser.data.length > 0) {
+        alert("⚠️ Email already registered. Please login.");
+        return;
+      }
+
+      // Register the new user
       await api.post("/users", form);
 
       alert("✅ Registration Successful! Please login to continue.");
 
       navigate("/login");
     } catch (error) {
-      console.error(error);
-      alert("❌ Registration Failed. Please try again.");
+      console.error(
+        "Registration Error:",
+        error.response?.data || error.message
+      );
+
+      alert(
+        "❌ Registration Failed. Please make sure the backend is running."
+      );
     }
   };
 
   return (
     <form onSubmit={handleSubmit}>
       <input
-  type="text"
-  placeholder="Name"
-  value={form.name}
-  onChange={(e) =>
-    setForm({ ...form, name: e.target.value })
-  }
-  required
-/>
+        type="text"
+        placeholder="Name"
+        value={form.name}
+        onChange={(e) =>
+          setForm({ ...form, name: e.target.value })
+        }
+        required
+      />
+
       <input
         type="email"
         placeholder="Email"
